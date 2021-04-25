@@ -4,7 +4,7 @@
         .installationPageTitle.pageTitle {{title}}
         .block
             el-carousel(indicator-position="outside" trigger="click" height="70vh" )
-                el-carousel-item(v-for="item in works" :key="item")
+                el-carousel-item#slider(v-for="item in works" :key="item")
                     a.sliderFlex(v-bind:href="item.url" target= '_blank'  style="text-decoration:none")
                         #sliderText
                             .titleAndDescribe
@@ -43,6 +43,8 @@ export default {
     // top: 0px
 .block
     color: #E0D8CC
+.el-carousel__container
+    height: auto
 .el-carousel__item h3 
     color: #475669
     font-size: 14px
@@ -61,6 +63,7 @@ export default {
     justify-content: space-between
     height: 100%
     align-items: center
+    flex-wrap: wrap
 #sliderText
     text-decoration: none
     color: #E0D8CC
@@ -82,5 +85,18 @@ export default {
     height: 100%
 .sliderLink:visit
     text-decoration: none
-    
+@media only screen and (max-width: 1100px)
+    .sliderFlex
+        flex-direction: row-reverse
+        height: auto
+    .sliderPic
+        width: 100%
+        height: auto
+    #sliderText
+        width: 100%
+        margin: 8vh 0vh 4vh 0vh
+    .installation
+        min-height: 100vh
+    #slider
+        min-height: 100vh
 </style>
