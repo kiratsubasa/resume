@@ -49,9 +49,10 @@ export default {
 .pageTitle
     font-size: 6vw
     color: #DEBB87
-    font-weight: bold
+    font-weight: 1000
     // padding-top: 30vh
     // padding-right: 8vw
+    // opacity: 0.5
 .webPageTitle
     text-align: right
 .pageContent
