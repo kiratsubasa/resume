@@ -5,7 +5,8 @@
             .graphicFlex
                 .graphicItem(v-for="item in graphic")
                     img.graphicPic(v-bind:src="item.src")
-                    .graphicText {{item.content}}
+                    .graphicTextContainer
+                        .graphicText {{item.content}}
 </template>
 <script>
 export default {
@@ -43,7 +44,7 @@ export default {
     position: relative
 .graphicPic
     width: 100%
-.graphicText
+.graphicTextContainer
     width: 100%
     height: 0%
     position: absolute
@@ -53,8 +54,10 @@ export default {
     text-align: left
     line-height: 1.5
     overflow: hidden
+.graphicText
+    margin: 10px
 .graphicItem:hover
-    .graphicText
+    .graphicTextContainer
         height: 100%
         transition-duration: 0.5s
         opacity: 0.8
