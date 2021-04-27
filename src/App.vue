@@ -5,6 +5,7 @@
     router-link.menu(to="/website") Website
     router-link.menu(to="/installation") Installation
     router-link.menu(to="/graphic") Graphic
+    router-link.menu(to="/about") About
     //- router-link.menu(to="/about") About
   //- .menu
   router-view
