@@ -17,16 +17,18 @@ export default {
 }
 </script>
 <style lang="sass">
+.homeBody
+  background-color: #40414F
+  height: 100vh
+  overflow: hidden
+  position: relative
 .home
   height: 58vw
   width: 100%
   background-image: url("../assets/header.png")
   background-size: cover
   opacity: 0.6
-.homeBody
-  background-color: #40414F
-  height: 100vh
-  overflow: hidden
+  position: absolute
 @media only screen and (max-width: 1500px)
   .homeBody
     position: relative
@@ -42,4 +44,5 @@ export default {
   .home
     // height: 36vh
     // top: 32vh
+    top: 30vh
 </style>

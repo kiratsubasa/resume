@@ -95,6 +95,8 @@ export default {
     #sliderText
         width: 100%
         margin: 8vh 0vh 4vh 0vh
+    .sliderTitle
+        font-size: 24px
     .installation
         min-height: 100vh
     #slider
