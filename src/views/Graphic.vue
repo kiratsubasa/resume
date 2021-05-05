@@ -59,7 +59,7 @@ export default {
 .graphicItem:hover
     .graphicTextContainer
         height: 100%
-        transition-duration: 0.5s
+        transition-duration: 0.8s
         opacity: 0.8
 @media only screen and (max-width: 1100px)
     .graphicItem

@@ -40,4 +40,7 @@
   height: 36px
   padding-left: 3.6vw
   // line-height: 10vh
+.menu:hover
+  opacity: 0.8
+  transition: 0.6s
 </style>
