@@ -24,7 +24,7 @@ export default {
   data(){
     return{
       text: [
-        {img: 'https://www.flaticon.com/svg/vstatic/svg/684/684872.svg?token=exp=1620183991~hmac=555ccc41bb3cb65b21e094c2da743aaa',text: 'resume',url: ''},
+        {img: 'https://www.flaticon.com/svg/vstatic/svg/684/684872.svg?token=exp=1620183991~hmac=555ccc41bb3cb65b21e094c2da743aaa',text: 'resume',url: '#/resume'},
         {img: 'https://www.flaticon.com/svg/vstatic/svg/733/733609.svg?token=exp=1620182693~hmac=327787652ff2bd46ac92900b230c0ecf',text: 'GitHub',url: 'https://github.com/kiratsubasa'},
         {img: 'https://www.flaticon.com/svg/vstatic/svg/1400/1400829.svg?token=exp=1620182710~hmac=a332c3e36d7bf141115b2c7f0005f7e6',text: 'kira173_36',url: 'https://www.instagram.com/kira173_36/?igshid=15e4vp5ffpr'},
         {img: 'https://www.flaticon.com/svg/vstatic/svg/95/95645.svg?token=exp=1620182727~hmac=e8316f1f7f46e96675f06ccf9a0c9030',text: 'love.ryosuke.yuri@gmail.com',url: 'mailto:love.ryosuke.yuri@gmail.com'},

@@ -5,6 +5,7 @@ import Website from '../views/Website.vue'
 import Installation from '../views/Installation.vue'
 import Graphic from '../views/Graphic.vue'
 import About from '../views/About.vue'
+import Resume from '../views/Resume.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/website',
     name: 'Website',
     component: Website
+  },
+  {
+    path: '/resume',
+    name: 'Resume',
+    component: Resume
   }
 ]
 
